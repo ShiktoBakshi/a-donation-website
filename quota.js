@@ -28,12 +28,12 @@ document.getElementById('quota-donate')
             const div = document.createElement('div');
             div.classList.add('text-left');
             const now = new Date();
-            const currentDateTime = now.toLocaleString();
+            const dateTime = now.toLocaleString();
             div.innerHTML = `
-                <h4 class="text-2xl font-bold text-black">${amount} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</h4>
-                <p class="text-gray-500">Date:${currentDateTime} GMT +0600 (Bangladesh Standard Time)</p>
+                <h4 class="text-2xl font-bold text-black">${money} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</h4>
+                <p class="text-gray-500">Date:${dateTime} GMT +0600 (Bangladesh Standard Time)</p>
            `
-            document.getElementById('transaction-container').appendChild(div);
+            document.getElementById('history-container').appendChild(div);
             document.getElementById('my_modal_1').showModal();
         }
     });
