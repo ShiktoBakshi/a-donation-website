@@ -12,8 +12,8 @@ function getTextFieldValueById(id){
 
 
 function showSectionById(id){
-    document.getElementById('donation-section').classList.add('hidden');
-    document.getElementById('transaction-section').classList.add('hidden');
+    document.getElementById('donation-btn').classList.add('hidden');
+    document.getElementById('history-btn').classList.add('hidden');
    
     document.getElementById(id).classList.remove('hidden');
 
