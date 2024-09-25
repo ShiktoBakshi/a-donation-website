@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+   
 </head>
 <body>
     <nav class="sticky top-0 z-10 bg-orange-100">
         <div class="navbar">
-            <div class="navbar-start pl-10 ">
-                <button id="home-btn" class="w-20 h-8 rounded-lg bg-lime-400 text-black font-bold">Home</button>
+            <div class="navbar-start lg:pl-10 ">
+                <button id="home-btn" class=" btn  bg-lime-400 text-black font-bold">Home</button>
             </div>
-            <div class="navbar-center gap-5">
+            <div class="navbar-center lg:gap-5 gap-1">
                 <img src="/assets/logo.png" alt="">
               <h2 class=" text-xl font-bold ">Donate Bangladesh</h2>
             </div>
-            <div class="navbar-end gap-2 pr-10">
+            <div class="navbar-end gap-2 lg:pr-10">
              <img src="/assets/coin.png" alt="">
-             <h4 id="account-balance">5500</h4>
+             <h4 id="account-balance">100000</h4>
              <p>BDT</p>
             </div>
         </div>
+       
     </nav>
   <main class="lg:p-20 sm:p-40 ">
     <div class="collapse collapse-arrow bg-base-200">
@@ -62,5 +64,6 @@
       </div>
   </main>
     <script src="blog.js"></script>
+   
 </body>
 </html>

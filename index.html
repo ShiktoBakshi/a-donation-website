@@ -6,12 +6,13 @@
     <title>Home page</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
-    <nav class="sticky top-0 z-10 ">
+    <nav class="sticky top-0 z-10 backdrop-blur-lg">
         <div class="navbar bg-orange-100">
             <div class="navbar-start lg:pl-10 ">
-                <button id="blog-btn" class="w-20 h-8 rounded-lg bg-lime-400 text-black font-bold">Blog</button>
+                <button id="blog-btn" class=" btn  bg-lime-400 text-black font-bold">Blog</button>
             </div>
             <div class="navbar-center lg:gap-5">
                 <img src="/assets/logo.png" alt="">
@@ -25,7 +26,7 @@
         </div>
         <div class="flex justify-center gap-8 mt-10 mb-5">
      
-          <button id="show-donation-btn" class="bg-lime-400 h-11 w-24 rounded-lg ">Donation</button>
+          <button id="show-donation-btn" class=" h-11 w-24 rounded-lg  border-solid border-b-slate-100 border-2 ">Donation</button>
         
           <button id="show-history-btn" class=" h-11 w-24 rounded-lg  border-solid border-b-slate-100 border-2">History</button>
         </div>
@@ -48,7 +49,7 @@
               </div>
             <h2 class="card-title font-bold text-black">Donate for Flood at Noakhali, Bangladesh</h2>
             <p> You can also contribute directly to local organizations and relief efforts that are working on the ground to provide immediate aid, including food, clean water, and medical supplies</p>
-            <input id="noakhali-input" class="border-2 border-b-amber-50 h-10 pl-2 rounded-md" type="number" placeholder="Write Donation Amount">
+            <input id="noakhali-input" class="border-2 border-b-amber-50 h-10 pl-2 rounded-md" type="text" placeholder="Write Donation Amount">
             <div class="card-actions">
               
               <button id="noakhali-donate" class="btn  bg-lime-400 font-bold text-black w-full">Donate Now</button>
@@ -73,7 +74,7 @@
                   This platform has a project specifically aimed at providing immediate relief and long-term recovery assistance to flood-affected areas in Bangladesh, including Feni
               </p>
 
-              <input id="fani-input" class="border-2 border-b-amber-50 h-10 pl-2 rounded-md" type="number" placeholder="Write Donation Amount">
+              <input id="fani-input" class="border-2 border-b-amber-50 h-10 pl-2 rounded-md" type="text" placeholder="Write Donation Amount">
               <div class="card-actions">
                 
                 <button id="fani-donate" class="btn  bg-lime-400 font-bold text-black w-full">Donate Now</button>
