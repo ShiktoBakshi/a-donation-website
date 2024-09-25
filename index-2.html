@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="sticky top-0 z-10 bg-orange-100">
+        <div class="navbar">
+            <div class="navbar-start pl-10 ">
+                <button id="home-btn" class="w-20 h-8 rounded-lg bg-lime-400 text-black font-bold">Home</button>
+            </div>
+            <div class="navbar-center gap-5">
+                <img src="/assets/logo.png" alt="">
+              <h2 class=" text-xl font-bold ">Donate Bangladesh</h2>
+            </div>
+            <div class="navbar-end gap-2 pr-10">
+             <img src="/assets/coin.png" alt="">
+             <h4 id="account-balance">5500</h4>
+             <p>BDT</p>
+            </div>
+        </div>
+    </nav>
+  <main class="lg:p-20 sm:p-40 ">
+    <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">What is the Document Object Model(DOM)?</div>
+        <div class="collapse-content">
+          <p>The Document Object Model (DOM) is a programming API for HTML and XML documents</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+        <div class="collapse-content">
+          <p>1.Using getElementById: The getElementById method allows you to select an element by its ID. ...
+           2. Using getElementsByClassName: ...
+           3. Using getElementsByTagName: ...
+           4. Using querySelector: ...
+           5. Using querySelectorAll: ...
+           6. Changing the Text Content. ...
+           7. Changing the HTML Content. ...
+           8. Changing the Attribute Value.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
+        <div class="collapse-content">
+          <p>Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+        <div class="collapse-content">
+          <p>The classList object only provide methods to change the class of an element. If you want to change other attributes like id , href , or src , you can use the setAttribute() method.</p>
+        </div>
+      </div>
+  </main>
+    <script src="blog.js"></script>
+</body>
+</html>
